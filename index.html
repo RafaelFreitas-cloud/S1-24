@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro KENZIE</h1>
+    <form>
+        
+                <h4>Nome Completo</h4>
+                <label for="nomeCompleto"></label>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Digite o nome completo" required>
+           
+                <h4>E-mail</h4>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Digite o e-mail" required>
+          
+                <h4>Qual sua motivação?</h4>
+                <label for="motivacao"></label>
+                <textarea id="motivacao" cols="30" rows="6" placeholder="O que te trouxe aqui?"></textarea>
+      
+                <h4>Selecione seu módulo</h4>
+                <select name="modulo" required>
+                    <option value="">Qual seu módulo?</option>
+                    <option value="modulo1">Módulo I</option>
+                    <option value="modulo2">Módulo II</option>
+                    <option value="modulo3">Módulo III</option>
+                    <option value="modulo4">Módulo IV</option>
+                    <option value="modulo5">Módulo V</option>
+                    <option value="modulo6">Módulo VI</option>
+                </select>
+            
+                <h4>Senha</h4>
+                <input type="password" placeholder="Digite sua senha">
+
+                <h4>Confirmar Senha</h4>
+                <input type="password" placeholder="Digite sua senha novamente">
+               
+                <h5>Deseja receber novidades via e-mail?</h5>
+                <label for="sim">Sim</label>           
+                <input type="radio" id="sim" name="escolha">
+                <label for="nao">Não</label>
+                <input type="radio" id="nao" name="escolha">
+                  
+            <hr>
+     
+                <input type="submit" value="Enviar">
+        
+      
+    </form>
+    
+</body>
+</html>
